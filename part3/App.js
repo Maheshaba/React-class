@@ -13,6 +13,10 @@
  * Contact
  */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import FetchMeal from "./FetchMeal";
+
 const Header = () => {
   return (
     <div className="header">
@@ -65,7 +69,8 @@ const AppLayout = () => {
   return (
     <div class="app">
       <Header />
-      <Body />
+      {/* <Body /> */}
+      <FetchMeal />
     </div>
   );
 };
